@@ -1,0 +1,25 @@
+{
+  "name": "util",
+  "version": "1.0.0",
+  "description": "Utility functions for JavaScript and TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "eslint . --fix && tsc"
+  },
+  "keywords": [
+    "util",
+    "utility",
+    "functions",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Squiddleton",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "eslint": "^8.27.0",
+    "eslint-plugin-tsdoc": "^0.2.17",
+    "typescript": "^4.8.4"
+  }
+}
