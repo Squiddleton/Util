@@ -11,6 +11,7 @@
     "importsNotUsedAsValues": "error",
     "strict": true,
     "useUnknownInCatchVariables": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "declaration": true
   }
 }

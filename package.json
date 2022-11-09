@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Utility functions for JavaScript and TypeScript",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "eslint . --fix && tsc"
+    "build": "eslint . --fix && tsc",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "util",
@@ -15,6 +17,10 @@
   ],
   "author": "Squiddleton",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
