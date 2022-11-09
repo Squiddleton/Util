@@ -1,5 +1,5 @@
 {
-  "name": "util",
+  "name": "@squiddleton/util",
   "version": "1.0.0",
   "description": "Utility functions for JavaScript and TypeScript",
   "main": "dist/index.js",
