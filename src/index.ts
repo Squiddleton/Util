@@ -31,7 +31,7 @@ export const formatPossessive = (str: string) => `${str}'${['s', 'z'].some(c => 
  * Gets just the explicit keys from an enum without the reversed values.
  *
  * @param enumeration - A record with string keys and any value
- * @returns - The record's string keys
+ * @returns The record's string keys
  */
 export const getEnumKeys = (enumeration: Record<string, any>) => Object.keys(enumeration).filter(x => !(parseInt(x) >= 0));
 
@@ -106,7 +106,7 @@ export const quantify = (arr: string[]) => {
  * Removes duplicate items from an array.
  *
  * @param arr - An array containing any type
- * @returns - The array without duplicate items
+ * @returns The array without duplicate items
  *
  * @example
  * // Prints "[1, 2, 3]"
@@ -119,7 +119,7 @@ export const removeDuplicates = <T>(arr: T[]) => Array.from(new Set(arr));
  *
  * @param previous - The previous number to add onto
  * @param current - The current number
- * @returns - The sum of the previous and current numbers
+ * @returns The sum of the previous and current numbers
  *
  * @example
  * // Prints "6"
